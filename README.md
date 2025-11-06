@@ -1,2 +1,14 @@
 # ip-info-bot
-Basic telegram bot find ip addresses
+Basic Telegram Bot Find ip addresses
+Buttons:
+
+🔹 Start
+
+🌐 Your IP
+
+🔍 Find IP
+
+📤 Share
+
+
+
