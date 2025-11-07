@@ -1,4 +1,5 @@
 import telebot
+import os
 import requests
 from telebot.types import ReplyKeyboardMarkup, KeyboardButton
 
@@ -71,4 +72,7 @@ def find_ip(message):
     except:
         bot.send_message(message.chat.id, "❌ Invalid IP or error fetching info.", reply_markup=main_menu())
 
-bot.launch()
+import os
+
+if __name__ == "__main__":
+    bot.polling(non_stop=True, skip_pending=True)
