@@ -49,7 +49,7 @@ def handle_message(message):
         bot.register_next_step_handler(message, find_ip)
 
     elif text == "📤 Share":
-        bot.send_message(message.chat.id, "📩 Share this bot with friends!\n\n👉 t.me/YourBotUsername")
+        bot.send_message(message.chat.id, "📩 Share this bot with friends!\n\n👉 t.me/@Ipaddress34344_bot")
 
     else:
         bot.send_message(message.chat.id, "Please use the buttons below.", reply_markup=main_menu())
