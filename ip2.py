@@ -71,4 +71,4 @@ def find_ip(message):
     except:
         bot.send_message(message.chat.id, "❌ Invalid IP or error fetching info.", reply_markup=main_menu())
 
-bot.polling()
+bot.launch()
