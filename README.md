@@ -1,5 +1,5 @@
 # ip-info-bot
-Basic Telegram Bot Find ip addresses
+Basic Telegram Bot To Find IP addresses
 
 Buttons:
 
