@@ -3,7 +3,7 @@ import os
 import requests
 from telebot.types import ReplyKeyboardMarkup, KeyboardButton
 
-BOT_TOKEN = "8270816155:AAHAks-iyvybbt7q9IkCA69ut7uuzpT0S50"
+BOT_TOKEN = "YOUR BOT TOKEN"
 bot = telebot.TeleBot(BOT_TOKEN)
 
 # --- Main menu ---
